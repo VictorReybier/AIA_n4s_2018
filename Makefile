@@ -24,6 +24,7 @@ all:	$(NAME)
 
 clean:
 		rm -f *.o
+		rm -f source/*.o
 
 fclean:	clean
 		rm -rf $(NAME)
